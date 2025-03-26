@@ -13,5 +13,15 @@ Once you have your droop range and deadband range you need to calculate the freq
 Steps:
 1. Create new dyr for each variation e.g. RevA_Droop10.dyr for 10% dyr
 2. Uncomment these lines in the modify script and update dyr names:
+![Code in modify file](/images/S52511_step2.png)
 3. Calculate the droop and and deadband variables.
-Examples:
+Examples for 50Hz Frequency:\
+Deadband of 0.\ 4 frequency points s.t. F2=F3
+![Deadband 0](/images/Deadband0.png)
+
+
+![Deadband 0](/images/Deadband015.png)
+![Deadband 0](/images/Deadband05.png)
+![Deadband 0](/images/Deadband1.png)
+
+![Deadband 0](/images/droop2.png)
