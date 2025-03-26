@@ -1,0 +1,12 @@
+#Gitbash
+Gitbash is a software that allows you to connect your local files to github. Please note that VS code can set up repos, connect to remote repos, commit, push and pull all within the IDE.
+Gitbash does this all very manually so if you are not familiar with git commands its better to just use VS code. 
+Either way its up to personal preference so here are some hints and tricks for Gitbash
+
+## Create local repo and connect to remote origin
+```
+git init . 
+git remote add origin "html link"
+git add .
+git commit -m "Inital Commit"
+```
