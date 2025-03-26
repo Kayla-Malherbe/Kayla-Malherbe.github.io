@@ -1,0 +1,20 @@
+# Virtual Environments
+
+Contents:
+1. TOC
+{:toc}
+
+## What are Python Virotual Enviornments
+Environmnets help
+
+## Why we cannnot use Conda
+For individual use conda is free but for commerical use (large organisations) you need to purchase licensing. So instead we need to use a subbranch of conda with is miniconda/miniforge.
+
+## Using conda-forge/miniforge
+Miniforge is very similar to conda but just have a seperate command prompt and some different keywords.\
+[Here is the git page for conda-forge](https://github.com/conda-forge/miniforge)
+
+
+## Creating environments
+Theres a good guide [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) on setting up enviornments.
+Basically 
