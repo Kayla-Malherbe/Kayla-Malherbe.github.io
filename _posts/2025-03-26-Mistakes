@@ -1,0 +1,4 @@
+# Silly Mistakes not to make
+
+## Setting up CSVs for PSSE or PSCAD runs
+make sure the input values align with the GPS or assumptions report. Don't be silly and use a different project v_pu value
