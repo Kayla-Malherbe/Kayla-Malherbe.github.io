@@ -18,10 +18,39 @@ Steps:
 Examples for 50Hz Frequency:\
 Deadband of 0.\ 4 frequency points s.t. F2=F3
 ![Deadband 0](/images/Deadband0.png)
+$$gradient = 0.025 $$\
+$$ freq = 50 Hz $$
+$$ f2 = f3 = freq = 50 $$
+$$ f2-f1/50 = gradient = 0.025 $$ 
+$$ f1 = f2 - (gradient * freq) = 48.75 $$
+$$ f4 - f3 / 50 = gradient = 0.025 $$
+$$ f4 = f3 + (gradient * 50) = 51.25 $$
 
+![Deadband 0.15](/images/Deadband015.png)
+$$ dB = 0.15, freq = 50, gradient = 0.025 (2.5%) $$
+$$ f2 = freq - dB = 50 - 0.15 = 49.85 $$
+$$ f1 = f2 - (gradient * freq ) = 48.6 $$
+$$ f3 = freq + dB = 50 + 0.15 = 50.15 $$
+$$ f4 = f3 + (graident * freq) = 51.4 $$
 
-![Deadband 0](/images/Deadband015.png)
-![Deadband 0](/images/Deadband05.png)
-![Deadband 0](/images/Deadband1.png)
+![Deadband 0.5](/images/Deadband05.png)
+$$ dB = 0.5, freq = 50, gradient = 0.025 (2.5%) $$
+$$ f2 = freq - dB = 50 - 0.5 = 49.5 $$
+$$ f1 = f2 - (gradient * freq ) = 48.25 $$
+$$ f3 = freq + dB = 50 + 0.5 = 50.5 $$
+$$ f4 = f3 + (graident * freq) = 51.75 $$
 
-![Deadband 0](/images/droop2.png)
+![Deadband 1](/images/Deadband1.png)
+$$ dB = 0.5, freq = 50, gradient = 0.025 (2.5%) $$
+$$ f2 = freq - dB = 50 - 0.5 = 49.5 $$
+$$ f1 = f2 - (gradient * freq ) = 48.25 $$
+$$ f3 = freq + dB = 50 + 0.5 = 50.5 $$
+$$ f4 = f3 + (graident * freq) = 51.75 $$
+
+![Droop 2%](/images/droop2.png)
+$$ dB = 0.15, freq = 50, gradient = droop = 0.02 (2%) $$
+$$ f2 = freq - dB = 50 - 0.15 = 47.25 $$
+$$ f1 = f2 - (gradient * freq ) = 48.25 $$
+$$ f3 = freq + dB = 50 + 0.15 = 50.15 $$
+$$ f4 = f3 + (graident * freq) = 51.15 $$
+
