@@ -1,0 +1,10 @@
+# PSSE Technical Requirements Test S5.2.5.11
+This requires two tests:
+1. Frequency Grid Deadband PLB
+2. Frequency Grid Droop PLB
+
+First look at GPS requirmenets sepcified for a project. Find infomration such as 
+- max operating level
+- min operating level
+- droop range
+- deadband range
