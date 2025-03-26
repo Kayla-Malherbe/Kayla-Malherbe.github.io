@@ -8,3 +8,10 @@ First look at GPS requirmenets sepcified for a project. Find infomration such as
 - min operating level
 - droop range
 - deadband range
+
+Once you have your droop range and deadband range you need to calculate the frequency variables to put into the variation dyrs.
+Steps:
+1. Create new dyr for each variation e.g. RevA_Droop10.dyr for 10% dyr
+2. Uncomment these lines in the modify script and update dyr names:
+3. Calculate the droop and and deadband variables.
+Examples:
